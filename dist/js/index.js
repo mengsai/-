@@ -1,0 +1,1 @@
+$(function(){function n(){$(".bo").delay(2e3).animate({left:"-1200px"},1e3,function(){$(".bo").css("left",0),$(".bo img").first().appendTo(this),n()})}n()});
