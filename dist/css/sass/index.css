@@ -298,3 +298,51 @@ a {
   margin-right: 20px;
   margin-top: -50px;
   display: none; }
+
+.xiushoujidiv {
+  width: 500px;
+  height: 340px;
+  position: absolute;
+  left: 250px;
+  background: black;
+  z-index: 10;
+  font-size: 80px;
+  text-align: center;
+  line-height: 340px;
+  display: none; }
+
+.xiushoujidiv1 {
+  width: 500px;
+  height: 340px;
+  position: absolute;
+  left: 250px;
+  background: black;
+  z-index: 10;
+  font-size: 80px;
+  text-align: center;
+  line-height: 340px;
+  display: none; }
+
+.xiushoujidiv2 {
+  width: 500px;
+  height: 340px;
+  position: absolute;
+  left: 250px;
+  background: black;
+  z-index: 10;
+  font-size: 80px;
+  text-align: center;
+  line-height: 340px;
+  display: none; }
+
+.xiushoujidiv3 {
+  width: 500px;
+  height: 340px;
+  position: absolute;
+  left: 250px;
+  background: black;
+  z-index: 10;
+  font-size: 80px;
+  text-align: center;
+  line-height: 340px;
+  display: none; }
