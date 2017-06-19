@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+.tou {
+  width: 1536px;
+  height: 40px;
+  border: 1px solid gray;
+  line-height: 40px;
+  background: #F5F5F5; }
+
+.span1 {
+  float: left;
+  margin-left: 200px; }
+  .span1 a {
+    margin-right: 10px; }
+
+.span2 {
+  float: right;
+  margin-right: 200px; }
+  .span2 a {
+    margin: 0px 5px; }
+
+.touxia {
+  width: 1536px;
+  height: 80px;
+  text-align: center; }
+  .touxia img {
+    float: left;
+    margin-left: 200px; }
+  .touxia .span3 {
+    font-size: 30px;
+    color: #44AA77; }
+  .touxia div {
+    float: right;
+    margin-right: 200px; }
+    .touxia div a {
+      margin-left: 20px; }

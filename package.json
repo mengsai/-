@@ -2,6 +2,15 @@
   "name": "",
   "version": "",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-webserver": "^0.9.1",
+    "webserver": "^3.1.10"
+  },
+  "dependencies": {
+    "gulp-ruby-sass": "^2.1.1"
   }
 }
