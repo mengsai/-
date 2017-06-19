@@ -15,28 +15,110 @@ a {
 
 .span1 {
   float: left;
-  margin-left: 200px; }
+  margin-left: 160px; }
   .span1 a {
     margin-right: 10px; }
 
 .span2 {
   float: right;
-  margin-right: 200px; }
+  margin-right: 170px; }
   .span2 a {
     margin: 0px 5px; }
 
 .touxia {
   width: 1536px;
   height: 80px;
-  text-align: center; }
-  .touxia img {
+  text-align: center;
+  line-height: 80px; }
+  .touxia .touxiaimg1 {
     float: left;
-    margin-left: 200px; }
-  .touxia .span3 {
-    font-size: 30px;
-    color: #44AA77; }
-  .touxia div {
+    margin-left: 160px; }
+  .touxia .xouping {
     float: right;
-    margin-right: 200px; }
-    .touxia div a {
-      margin-left: 20px; }
+    margin-right: 170px; }
+    .touxia .xouping span {
+      margin-left: 30px; }
+
+.lun {
+  width: 1200px;
+  height: 340px;
+  margin: auto;
+  position: relative;
+  color: white;
+  overflow: hidden; }
+  .lun .xiushouji {
+    position: absolute;
+    z-index: 10;
+    top: 0px;
+    width: 250px;
+    height: 78px;
+    background-color: rgba(74, 72, 71, 0.8);
+    line-height: 78px; }
+    .lun .xiushouji img {
+      margin-left: 50px;
+      float: left; }
+  .lun .xiudiannao {
+    position: absolute;
+    z-index: 10;
+    top: 85px;
+    width: 250px;
+    height: 78px;
+    background-color: rgba(74, 72, 71, 0.8);
+    line-height: 78px; }
+    .lun .xiudiannao img {
+      margin-left: 50px;
+      float: left; }
+  .lun .mai {
+    position: absolute;
+    z-index: 10;
+    top: 170px;
+    width: 250px;
+    height: 78px;
+    background-color: rgba(74, 72, 71, 0.8);
+    line-height: 78px; }
+    .lun .mai img {
+      margin-left: 50px;
+      float: left; }
+  .lun .maishouji {
+    position: absolute;
+    z-index: 10;
+    top: 255px;
+    width: 250px;
+    height: 78px;
+    background-color: rgba(74, 72, 71, 0.8);
+    line-height: 78px; }
+    .lun .maishouji img {
+      margin-left: 50px;
+      float: left; }
+  .lun .bo {
+    width: 3600px;
+    height: 340px;
+    font-size: 0px;
+    position: absolute;
+    z-index: 0; }
+    .lun .bo img {
+      float: left; }
+
+.huishou {
+  width: 1536px;
+  background: #F7F7F7; }
+  .huishou .huishoutou {
+    margin-left: 160px;
+    font-size: 0px; }
+  .huishou .huishouzhong {
+    margin-left: 160px; }
+    .huishou .huishouzhong .remeng {
+      font-size: 30px; }
+    .huishou .huishouzhong .chakan {
+      float: right;
+      margin-right: 170px; }
+    .huishou .huishouzhong .daodian {
+      margin-left: 160px;
+      font-size: 30px; }
+    .huishou .huishouzhong .spanimg {
+      margin-left: 160px;
+      font-size: 0px; }
+
+.shousuo {
+  width: 1536px;
+  margin-left: 160px; }

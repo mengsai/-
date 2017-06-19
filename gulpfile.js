@@ -22,8 +22,23 @@ gulp.task("html",function () {
 });
 gulp.task("sass",function () {
     return sass("src/**/*.scss")
+        .on('error', function (err) {
+            console.error('Error!', err.message);
+        })
         .pipe(gulp.dest("dist/css"));
 });
+
+
+// gulp.task('sass', function () {
+//     return sass('app/scss/main.scss')
+//         .on('error', function (err) {
+//             console.error('Error!', err.message);
+//         })
+//         .pipe(gulp.dest('app/css'));
+// });
+
+
+
 //js 压缩
 gulp.task("js",function () {
     return gulp.src("src/js/**/*.js")
@@ -45,8 +60,9 @@ gulp.task('images',function () {
         }))
         .pipe(gulp.dest('dist/images'))
 });
-// gulp.task('watch', function () {
-//     gulp.watch('src/**/*.html',["htmlmin"]);
-//     gulp.watch('src/sass/*.scss',["sass"]);
-// });
-gulp.task("default",["sass","js","html","htmlmin","images","webserver"]);
+gulp.task('watch', function () {
+    gulp.watch('src/**/*.html',["htmlmin"]);
+    gulp.watch('src/sass/*.scss',["sass"]);
+    gulp.watch('src/js/*.js',["js"]);
+});
+gulp.task("default",["sass","js","html","htmlmin","images","watch","webserver"]);

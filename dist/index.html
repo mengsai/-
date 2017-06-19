@@ -3,7 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+
 	<link rel="stylesheet" href="css/sass/index.css" type="text/css">
+
 </head>
 <body>
 <div class="tou">
@@ -18,13 +20,84 @@
 		<a href="">投诉建议</a></span>
 </div>
 <div class="touxia">
-	<img src="images/36.png" alt="">
-	<span class="span3">同城帮</span>
-	<div>
+	<img src="images/35.png" alt="" class="touxiaimg1">
+
+	<div class="xouping">
 		<span>优品</span><span>手机回收</span>
 		<span>手机维修</span><span>电脑维修</span>
 		<span>以旧换新</span><span>手机租用</span>
 	</div>
+
+</div>
+<div class="lun">
+	<div class="xiushouji"><img src="images/2_03.png" alt="">修手机/Pad &nbsp></div>
+	<div class="xiudiannao"><img src="images/2_06.png" alt="">修电脑 &nbsp&nbsp&nbsp></div>
+	<div class="mai"><img src="images/2_08.png" alt="">卖手机/电脑 &nbsp></div>
+	<div class="maishouji"><img src="images/2_10.png" alt="">买二手机 &nbsp&nbsp></div>
+	<div class="bo">
+		<img src="images/5.png" alt=""><img src="images/6.png" alt=""><img src="images/27.jpg" alt="">
+	</div>
+</div>
+<div class="huishou">
+	<span class="huishoutou">
+		<img src="images/2.jpg" alt="">
+	    <img src="images/10.jpg" alt="">
+		<img src="images/15.png" alt="">
+	    <img src="images/14.jpg" alt=""></span>
+	<br>
+	<br>
+    <span class="huishouzhong">
+		<span class="remeng">热门手机回收</span>
+		<span class="chakan">查看更多 》</span>
+		<br>
+		<br>
+		<span class="spanimg">
+		<img src="images/4_03.png" alt="">
+		<img src="images/4_11.png" alt="">
+		<img src="images/4_04.png" alt="">
+		<img src="images/4_05.png" alt="">
+		<img src="images/4_02.png" alt="">
+		<img src="images/4_07.png" alt=""></span>
+	</span>
+	<br>
+	<br>
+    <span class="huishouzhong">
+		<span class="remeng">优品精选</span>
+		<span class="chakan">查看更多 》</span>
+		<br>
+		<br>
+		<span class="spanimg">
+		<img src="images/4_06.png" alt="">
+		<img src="images/4_11.png" alt="">
+		<img src="images/4_04.png" alt="">
+		<img src="images/4_05.png" alt="">
+		<img src="images/4_02.png" alt="">
+		<img src="images/4_07.png" alt=""></span>
+		<br>
+		<br>
+	<span class="daodian">到店维修</span>
+	</span>
+</div>
+<div class="shousuo">
+	<span class="chengshi">北京 ></span>
+	<span class="quxian">选择区县 ></span>
+	<input type="text" placeholder="请输入您的位置查找附近的商家" class="inputsou1">
+	<input type="button" value="搜索" class="inputsou2">
 </div>
 </body>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script>
+	$(function () {
+		function lun() {
+			$(".bo").delay(2000).animate({
+				left:"-1200px"
+			},1000,function () {
+				$(".bo").css("left",0);
+				$(".bo img").first().appendTo(this);
+         lun();
+			})
+		}
+		lun();
+	})
+</script>
 </html>

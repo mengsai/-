@@ -1,4 +1,5 @@
 
+
 @mixin floatLeft{
   float: left;
 }
@@ -9,10 +10,10 @@
 width:1536px;
 }
 @mixin marginleft200{
-  margin-left: 200px;
+  margin-left: 160px;
 }
 @mixin marginright200{
-  margin-right: 200px;
+  margin-right: 170px;
 }
 @mixin textalien{
   text-align: center;
@@ -51,19 +52,125 @@ a{
   width: 1536px;
   height: 80px;
   @include textalien;
-  img{
+  line-height: 80px;
+  .touxiaimg1{
     @include floatLeft;
     @include marginleft200;
   }
-  .span3{
-    font-size: 30px;
-    color: #44AA77;
-  }
-  div{
+
+  .xouping{
     @include floatRight;
     @include marginright200;
-    a{
-      margin-left: 20px;
+    span{
+      margin-left: 30px;
     }
+  }
+
+}
+.lun{
+  width: 1200px;
+  height: 340px;
+  margin: auto;
+  position: relative;
+  color: white;
+  overflow: hidden;
+  .xiushouji{
+    position: absolute;
+    z-index: 10;
+    top: 0px;
+    width: 250px;
+    height:78px;
+    background-color: rgba(74,72,71,0.8);
+    line-height: 78px;
+
+    img{
+      margin-left: 50px;
+      float: left;
+    }
+  }
+  .xiudiannao{
+    position: absolute;
+    z-index: 10;
+    top: 85px;
+    width: 250px;
+    height:78px;
+    background-color: rgba(74,72,71,0.8);
+    line-height: 78px;
+
+    img{
+      margin-left: 50px;
+      float: left;
+    }
+  }
+  .mai{
+    position: absolute;
+    z-index: 10;
+    top: 170px;
+    width: 250px;
+    height:78px;
+    background-color: rgba(74,72,71,0.8);
+    line-height: 78px;
+
+    img{
+      margin-left: 50px;
+      float: left;
+    }
+  }
+  .maishouji{
+    position: absolute;
+    z-index: 10;
+    top: 255px;
+    width: 250px;
+    height:78px;
+    background-color: rgba(74,72,71,0.8);
+    line-height: 78px;
+    img{
+      margin-left: 50px;
+      float: left;
+    }
+  }
+  .bo{
+    width: 3600px;
+    height:340px;
+    font-size: 0px;
+    position: absolute;
+    z-index: 0;
+    img{
+      @include floatLeft;
+    }
+  }
+}
+.huishou{
+  width: 1536px;
+  background: #F7F7F7;
+  .huishoutou{
+    margin-left: 160px;
+    font-size: 0px;
+  }
+  .huishouzhong {
+    margin-left: 160px;
+    .remeng{
+      font-size: 30px;
+    }
+.chakan{
+  @include floatRight;
+  @include marginright200;
+}
+    .daodian{
+      @include marginleft200;
+      font-size: 30px;
+    }
+    .spanimg{
+      margin-left: 160px;
+      font-size: 0px;
+    }
+  }
+}
+
+.shousuo{
+  width: 1536px;
+  @include marginleft200;
+  .chengshi{
+
   }
 }
